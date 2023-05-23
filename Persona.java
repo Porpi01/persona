@@ -17,3 +17,19 @@ System.out.println("Nombre: " + nombre);
 System.out.println("Edad: " + nombre);
 }
 }
+public class Persona {
+private String nombre;
+private int edad;
+private String correo;
+public Persona(String nombre, int edad,
+String correo){
+this.nombre = nombre;
+this.edad = edad;
+this.correo = correo;
+}
+public void imprimirDatos() {
+System.out.println("Nombre: " + nombre);
+System.out.println("Edad: " + nombre);
+System.out.println("Correo: " + correo);
+}
+
